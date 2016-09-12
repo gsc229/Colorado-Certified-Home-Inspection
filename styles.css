@@ -1,0 +1,177 @@
+.navbar {
+    background-color: rgba(2,65,90,1);
+    text-align: center;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0;
+
+}
+
+.navbar-brand {
+    font-family: serf;
+    font-size: 30px;
+    
+}
+
+#bannerContainer {
+    width: 100%;
+
+}
+.banner {
+    background-color: rgba(2,65,90, 1);
+    height: 200px;
+    color: white;
+    font-size: 60px;
+    font-family: serif;
+    margin-top: 50px;
+    
+    text-align: center;
+    
+    
+}
+h1 {
+    color:;
+    align-content: center;
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+
+
+.btn {
+    margin: 5px;
+    background-color: rgba(2,65,90,1);
+    color: white;
+}
+
+.caps {
+    font-size: 70px;
+}
+
+#mainContent {
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    
+}
+
+#contentRow {
+    margin: auto;
+    width:;
+}
+
+
+
+#left {
+    color: rgba(2,65,90,1);
+    background-color:;
+    height: 700px;
+    width: 500px;
+    margin: 30px 30px 30px 100px;
+    display: inline-block;
+    border-color: rgb(2,65,90);
+    border-style: solid;
+    border-width: 3px;
+    padding: 50px;
+
+}
+
+#left ul {
+    display: inline-block;
+    list-style-type: none;
+    font-family: serif;
+}
+
+#right{
+    color: rgba(2,65,90,1);
+    background-color:;
+    height: 700px;
+    width: 500px;
+    border: solid;
+    border-color: rgb(2,65,90);
+    border-width: 3px;
+    margin: 30px;
+    display: inline-block;
+    padding: 50px;
+}
+
+#right ul {
+    display: inline-block;
+    list-style-type: none;
+    font-family: serif;
+}
+
+#HomePic{
+    height: 700px;
+    width: 500px;
+    background: url(images/HomeHt700.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    margin: 30px auto;
+    display: inline-block;
+    
+    
+}
+
+@media screen and (max-width: 1890px) {
+     #mainContent {
+       margin: 0 auto;
+    }
+
+     #left, #right, #HomePic {
+        width: 30%;
+        margin: 0 auto;
+    }
+  
+    .banner {padding: 5px;}
+    h1 { font-size: 45px;}
+    .banner span {font-size: 50px;}
+    
+} 
+
+@media screen and (max-width: 768px) {
+    #mainContent {
+        width: 100%;
+    }
+    
+    #left, #right, #HomePic {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner {padding: 5px;
+       
+    } 
+    .banner h1 {font-size: 20px;}
+    .banner span {font-size: 25px;}
+    .btn-default {
+        font-size: 10px;
+    }
+    
+    #left {padding: 10px;}
+    #left ul li h2 {
+        margin: 5% auto;
+        font-size: 20px;
+        
+    }
+      #left ul li a {
+        margin: 20px;
+          
+        height: 50px;
+        
+    }
+    #right {padding: 10px;}
+    #right ul li a {
+        margin: 20px auto;
+        font-size: 20px;
+        height: 50px;
+    }
+    
+     #right ul li h2 {
+        margin: 5% auto;
+        font-size: 20px;
+        
+    }
+}
+
