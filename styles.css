@@ -114,29 +114,6 @@ h1 {
     
     
 }
-#colors {
-    display: inline-block;
-}
-
-#1 {
-    height: 50px;
-    background-color: red;
-    
-}
-
-#2 {
-    height: 50px;
-    background-color: green;
-    
-}
-
-#3 {
-    height: 50px;
-    background-color: blue;
-    
-}
-
-
 
 @media screen and (max-width: 1890px) {
      #mainContent {
